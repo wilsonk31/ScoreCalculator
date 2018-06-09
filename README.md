@@ -11,7 +11,7 @@ Test files are included in the Repo
 User Manual Provided in Repo for using the web application.
 
 NOTE:
-*index.html is the main page to open and run the calculator
+* index.html is the main page to open and run the calculator
 
 Links:
-*[Xamp Link](https://www.apachefriends.org/index.html) used to run the project locally 
+* [Xamp Link](https://www.apachefriends.org/index.html) used to run the project locally 
