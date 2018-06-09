@@ -1,0 +1,45 @@
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Score Calculator</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="MainjQuery.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="row">
+  <div class="column" style="border-style: solid;">
+		<!-- IMPORTANT:  FORM's enctype must be "multipart/form-data" -->
+		<form id="upload" enctype="multipart/form-data" action="upload.php" method="POST">
+			<h1>File Reader</h1>
+			<input  type="file" name="upFile[]" multiple></input><br />
+			<input id="upload" type="submit" value="Upload"></input>
+		</form>
+		<h1>Score Calculator</h1>
+	<div>
+			<button id="RunPhp">Calculate Round</button>
+			<button id="emptyFiles"> Clear for New Round </button>
+			<a id=dLink href="fileDownload.php">Download Round File</a>
+	</div>
+		<pre id="DisplayArea"><pre>
+  </div>
+  <div class="column" style="border-style: solid;">
+		<div class ="Scores">
+			<h1>Score Totals</h1>
+				<button id="totalScores">Refresh Total Scores</button>
+				<a id=dLink2 href="fileDownload2.php">Download ScoreBoard File</a>
+				<button id="emptyFiles2"> Clear Scoreboard </button>
+				<pre id="DisplayTotal"><pre>
+		</div>
+  </div>
+</div>
+<button id="restart" style="color:red"> Restart Calculator </button>
+
+
+
+
+
+
+</body>
+</html>
