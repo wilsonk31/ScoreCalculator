@@ -7,3 +7,8 @@ I was also part of a capstone team that was task to build a web based testing ap
 I used Xamp to run a local server for the Project, Files needed to calculate the scorees had to be comma delmited 
 File Formated: (Question number,SelectedAnswer,CorrectAnswer,Time) Note and "X" means the team ran out of time (40 seconds)
 Test files are included in the Repo
+
+User Manual Provided in Repo for using the web application.
+
+Links:
+[Xamp Link](https://www.apachefriends.org/index.html) used to run the project locally 
